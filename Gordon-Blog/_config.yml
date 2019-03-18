@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Gordon's Blog
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
-timezone:
+author: Gordon
+language: en
+timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://gordon19891015.github.io/Gordon-Blog
+root: /Gordon-Blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -77,5 +77,5 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: https://github.com/Gordon19891015/Gordon-Blog
+  type: git
