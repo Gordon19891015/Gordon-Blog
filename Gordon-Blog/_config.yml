@@ -13,7 +13,7 @@ timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://gordon19891015.github.io/Gordon-Blog
+url: gordon19891015.github.io
 root: /Gordon-Blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,9 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: https://github.com/Gordon19891015/Gordon-Blog
-  type: git
+deploy: 
+type: git
+repo: git@github.com/Gordon19891015/Gordon-Blog.git
+branch: master
